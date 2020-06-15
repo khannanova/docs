@@ -1,0 +1,21 @@
+import Layout from '~/components/layout/knowledge'
+import Note from '~/components/text/note'
+
+export const meta = {
+  title: 'Can I add NS records to subdomains on Vercel?',
+  description:
+    'Information about subzone delegation when using Nameservers managed by Vercel.',
+  editUrl: 'pages/knowledge/can-i-add-nameservers-to-subdomains.mdx',
+  url: '/knowledge/can-i-add-nameservers-to-subdomains',
+  published: '2020-06-15T13:46:54.155Z',
+  lastEdited: '2020-06-15T13:46:54.155Z'
+}
+
+The Vercel platform does not support Nameservers on subdomains (subzone delegation). We recommend customers with this specific need to use another DNS provider.
+You can still use [A records](/knowledge/a-record-and-caa-with-vercel) with your domain to host your site with Vercel while the Nameservers are managed by a 3rd party company.
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>
+
+export const config = {
+  amp: 'hybrid'
+}

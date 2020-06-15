@@ -1,0 +1,29 @@
+import Layout from '~/components/layout/knowledge'
+import Note from '~/components/text/note'
+
+export const meta = {
+  title: 'Can I use my domain on Vercel with A records?',
+  description: 'Information about how to use A records with Vercel.',
+  editUrl: 'pages/knowledge/a-record-and-caa-with-vercel.mdx',
+  url: '/knowledge/a-record-and-caa-with-vercel',
+  published: '2020-06-15T13:46:54.155Z',
+  lastEdited: '2020-06-15T13:46:54.155Z'
+}
+
+Vercel is currently testing the [Anycast methodology](https://en.wikipedia.org/wiki/Anycast) for DNS and routing.
+
+## Required DNS Records
+
+The following records are required:
+
+- Add an A record with the value `76.76.21.21`.
+- Add a CAA record on the root of your domain with the value `"0 issue letsencrypt.org"`.
+
+If you followed the instructions above successfully, your domain should be available for use on any Vercel project that you own.
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>
+
+export const config = {
+  amp: 'hybrid'
+
+}

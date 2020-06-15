@@ -1,5 +1,29 @@
 [
   {
+    "title": "Can I use my domain on Vercel with A records?",
+    "description": "Information about how to use A records with Vercel.",
+    "editUrl": "pages/knowledge/a-record-and-caa-with-vercel.mdx",
+    "url": "/knowledge/a-record-and-caa-with-vercel",
+    "published": "2020-06-15T13:46:54.155Z",
+    "lastEdited": "2020-06-15T13:46:54.155Z"
+  },
+  {
+    "title": "Can I add NS records to subdomains on Vercel?",
+    "description": "Information about subzone delegation when using Nameservers managed by Vercel.",
+    "editUrl": "pages/knowledge/can-i-add-nameservers-to-subdomains.mdx",
+    "url": "/knowledge/can-i-add-nameservers-to-subdomains",
+    "published": "2020-06-15T13:46:54.155Z",
+    "lastEdited": "2020-06-15T13:46:54.155Z"
+  },
+  {
+    "title": "How can I do a \"Zero Downtime\" DNS migration?",
+    "description": "Information about how to migrate your DNS records without downtime.",
+    "editUrl": "pages/knowledge/zero-downtime-migration-for-dns.mdx",
+    "url": "/knowledge/zero-downtime-migration-for-dns.mdx",
+    "published": "2020-06-15T13:46:54.155Z",
+    "lastEdited": "2020-06-15T13:46:54.155Z"
+  },
+  {
     "title": "How do I identify my Vercel deployment IP address?",
     "description": "Information on how to handle IP allowlisting for a Vercel deployment.",
     "editUrl": "pages/knowledge/how-to-allowlist-deployment-ip-address.mdx",
